@@ -21,7 +21,7 @@ int main( void)
 
     /**************************BLOCK TO GENERATE data[n] array**************************************/
     // Open the file for reading which has signal information in the form 32bit int as first column and signal number second column
-    FILE* file = fopen("text_file.txt", "r");
+    FILE* file = fopen("cold atom exp/text.txt", "r");
     
     if (file == NULL) { printf("Failed to open the file.\n"); return 1; }
     /*-----block to calculate number of rows in the file.------------*/
